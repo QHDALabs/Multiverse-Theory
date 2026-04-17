@@ -1,38 +1,33 @@
-# Multiverse Theory — QMNET (#HackTheUniverse)
+# Multiverse-Theory | QHDALabs
 
-[![arXiv](https://img.shields.io/badge/arXiv-pending-informational)](#)
-[![DOI](https://img.shields.io/badge/Zenodo-DOI_pending-blue)](#)
-[![License: MIT (code)](https://img.shields.io/badge/License-MIT-success.svg)](LICENSE)
-[![License: CC BY 4.0 (docs)](https://img.shields.io/badge/Docs-CC%20BY%204.0-lightgrey.svg)](DOC_LICENSE.md)
+![License](https://img.shields.io/github/license/QHDALabs/Multiverse-Theory?style=flat-square)
+![Repo Size](https://img.shields.io/github/repo-size/QHDALabs/Multiverse-Theory?style=flat-square)
+![Last Commit](https://img.shields.io/github/last-commit/QHDALabs/Multiverse-Theory?style=flat-square)
 
-Eksperymentalna, kwantowo-topologiczna koncepcja dwóch warstw rzeczywistości:
-**(i)** temporalnego wszechświata (po „odparowaniu białej dziury”) oraz **(ii)** atemporalnej sieci splątania, z której emergują czasoprzestrzeń i świadomość.
+**Multiverse-Theory** to flagowy projekt badawczy prowadzony przez **QHDALabs**, skupiający się na matematycznym modelowaniu, symulacji i analizie koncepcji wieloświata. Repozytorium zawiera narzędzia do eksploracji struktur kwantowych, teorii strun oraz dynamicznych systemów wielowymiarowych.
 
-> Status: **Research in progress** (preprint; pakiet Zenodo/arXiv w przygotowaniu).
+---
 
-## Struktura repo
-- `paper/` – preprint LaTeX (CI buduje PDF artefakt)
-- `notebooks/` – eksperymenty (Jupyter)
-- `simulations/` – skrypty symulacyjne
-- `diagrams/` – rysunki/wizualizacje
-- `docs/` – strona projektu (GitHub Pages)
+## 🌌 O Projekcie
 
-## Budowa PDF (preprint)
+Projekt ma na celu dostarczenie ram obliczeniowych (frameworku) dla naukowców i entuzjastów zajmujących się fizyką teoretyczną. Skupiamy się na:
+- **Kwantowej Interpretacji Wielu Światów (MWI):** Algorytmy symulujące dekoherencję i rozgałęzianie się stanów kwantowych.
+- **Analizie Topologicznej:** Modelowanie przestrzeni Calabi-Yau i ich wpływu na stałe fizyczne.
+- **Symulacjach Monte Carlo:** Estymacja prawdopodobieństwa występowania alternatywnych linii czasowych w oparciu o zadane parametry początkowe.
+
+## 🛠️ Technologie i Narzędzia
+
+W projekcie wykorzystujemy nowoczesny stos technologiczny zapewniający wysoką wydajność obliczeniową:
+- **Język:** Python 3.10+ (NumPy, SciPy, Matplotlib) / C++ (dla silnika symulacji).
+- **Obliczenia:** Wsparcie dla CUDA w celu przyspieszenia symulacji na GPU.
+- **Dokumentacja:** LaTeX dla precyzyjnych opisów matematycznych.
+
+## 🚀 Szybki Start
+
+### Wymagania
+Upewnij się, że masz zainstalowane środowisko Python oraz menedżer pakietów `pip`.
+
 ```bash
-cd paper
-make   # latexmk -pdf -interaction=nonstopmode main.tex
-```
-
-PDF buduje się też automatycznie przez GitHub Actions (zob. /.github/workflows/latex.yml).
-
-## Cytowanie
-Zob. `CITATION.cff`. Po wydaniu na Zenodo tutaj trafi poprawny badge DOI.
-
-## Licencje
-Kod: MIT  
-Treści (tekst/grafiki): CC BY 4.0
-
-## Współpraca
-Zgłoszenia błędów/propozycje: Issues → Bug Report / Feature Request.  
-Zasady: `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`.
-
+git clone [https://github.com/QHDALabs/Multiverse-Theory.git](https://github.com/QHDALabs/Multiverse-Theory.git)
+cd Multiverse-Theory
+pip install -r requirements.txt
