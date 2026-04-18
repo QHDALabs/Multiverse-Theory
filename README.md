@@ -1,6 +1,5 @@
 # Multiverse-Theory | QHDALabs
 
-![License](https://img.shields.io/github/license/QHDALabs/Multiverse-Theory?style=flat-square)
 ![Repo Size](https://img.shields.io/github/repo-size/QHDALabs/Multiverse-Theory?style=flat-square)
 ![Last Commit](https://img.shields.io/github/last-commit/QHDALabs/Multiverse-Theory?style=flat-square)
 
